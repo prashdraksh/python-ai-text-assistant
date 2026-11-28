@@ -46,7 +46,7 @@ def main():
     results = vector_store.search(
         query_embedding=query_embedding,
         top_k=3,
-        page=99
+        page=3
     )
 
     print("Search results:", results["ids"][0])
