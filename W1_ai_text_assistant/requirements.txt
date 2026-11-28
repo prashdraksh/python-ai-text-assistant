@@ -1,0 +1,5 @@
+google-genai
+python-dotenv
+jsonschema
+pytest
+sentence-transformers
